@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    background-image: url(img/progr.jpg);
+    background-size: contain;
+}
+.mainbody{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30;
+    font-size: 25;
+    transition: 0.3 ease;
+}
+.nav{
+    margin-left: 800;
+    margin-top: 20;
+}
+a:hover{
+    border-bottom: 3px solid white;
+}
+nav a:hover,
+.active{
+    border-bottom: solid aqua;
+    color: aqua;
+}
+/*wrapper*/
+.wrapper{
+    background: transparent;
+    border: 2px solid white;
+    height: 500px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-left: 800px;
+    margin-top: 40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0, 0, 30px rgba(0,0,0,5);
+}
+.wrapper .form-box{
+    width: 80%;
+    padding: 4px;
+}
+h2{
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.input-box input{
+    height: 70%;
+    width: 100%;
+   margin-top: 20;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 0, 35px, 0, 5px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin: 30px, 0px;
+}
+.input-box label{
+    position: absolute;
+    left: 5px;
+    top: 24%;
+    transform: translateY(-50%);
+    font-size: 20;
+    pointer-events: none;
+}
+.remember-forgot label{
+    color: white;
+}
+.remember-forgot{
+    margin-top: 20px;
+}
+.remember-forgot a{
+    margin-left: 20px;
+    color: white;
+    
+}
+.btn{
+    margin-top: 20px;
+    width: 300;
+    height: 40;
+    font-size: 25;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.login-register p{
+    color: white;
+    font-size: 17px;
+}
+.login-register a{
+    color: white;
+    margin-left: 20px;
+    
+}
+.login-register a:hover{
+    border: none;
+}
+.remember-forgot a:hover{
+    border: none;
+}
